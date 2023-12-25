@@ -1,6 +1,5 @@
 import java.io.File
 
-
 fun main() {
     val lines = File("input.txt").useLines { it.toList() }
     // GameId: Int -> (Red: Int, Green: Int, Blue: Int)
